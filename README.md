@@ -14,7 +14,11 @@ before running the rpm build.
 Also check the config files in SOURCES, those files will
 be injected into the ${jboss-amq-home}/etc folder.
 
+If the rpm installs itself correctly, you can start with: 
+service jboss-amq start
+
 TODO's: 
 Define architecture in spec file
 Clean up spec file
 Check the config files in SOURCES
+
