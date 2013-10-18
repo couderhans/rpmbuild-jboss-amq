@@ -3,11 +3,9 @@ rpmbuild-jboss-amq
 
 Rpm build of JBoss A-MQ
 
-Download jboss-a-mq-6.0.0.redhat-024.zip from http://www.jboss.org/products/amq 
+Download jboss-a-mq-6.0.0.redhat-024.zip from
  and rename it to jboss-a-mq-6.0.0.redhat.024.zip
 (rpmbuild seems to have some trouble with the - in -024.zip)
-
-Put the zip into the SOURCES folder.
 
 Check/adapt the spec file (SPECS/jboss-amq.spec)
 before running the rpm build.
